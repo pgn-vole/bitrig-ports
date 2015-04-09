@@ -1,4 +1,4 @@
-# $OpenBSD: Makefile,v 1.228 2014/10/28 09:19:54 sthen Exp $
+# $OpenBSD: Makefile,v 1.229 2015/04/09 21:25:49 sthen Exp $
 
 BROKEN= 	needs work on bitrig
 
@@ -10,8 +10,7 @@ COMMENT-mysql=	MySQL authentication / dictionary support for Dovecot
 COMMENT-postgresql= PostgreSQL authentication / dictionary support for Dovecot
 
 V_MAJOR=	2.2
-V_DOVECOT=	2.2.15
-REVISION-server=0
+V_DOVECOT=	2.2.16
 
 DISTNAME=	dovecot-${V_DOVECOT}
 PKGNAME=	dovecot-${V_DOVECOT}
