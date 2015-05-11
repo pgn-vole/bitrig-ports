@@ -11,7 +11,7 @@ HOMEPAGE =		https://bitbucket.org/hirofuchi/xnbd/
 # GPLv2
 PERMIT_PACKAGE_CDROM =	Yes
 
-BUILD_DEPENDS =		textproc/asciidoc
+BUILD_DEPENDS =		textproc/asciidoc devel/glib2
 WANTLIB =		c
 
 EXTRACT_SUFX =		.tar.bz2
